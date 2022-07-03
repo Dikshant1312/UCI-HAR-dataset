@@ -95,3 +95,5 @@ for depth in max_depths:
     pred1 = best_dt.predict(X_test)
     accuracy = accuracy_score(y_test, pred1)
     print('Decision tree prediction accuracy: {0:.4f}'.format(accuracy))
+    
+'''Decision tree prediction accuracy: 0.8717'''
